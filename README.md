@@ -4,3 +4,4 @@
 - Step 4: Start Zookeeper using command "bin\windows\zookeeper-server-start.bat config\zookeeper.properties"
 - Step 5: Once zookeeper running, start kafka broker using command "bin\windows\kafka-server-start.bat config\server.properties"
 - Step 6: for running kafka connect code, checkout the connect folder from git and go to that folder and the run following command "C:\Softwares\kafka\bin\windows\connect-standalone.bat .\worker.properties .\file-stream-demo-standalone.propertie". Make sure to change kafka directory in tha command.
+- Step 7: Kafka stream project can be run as standard java maven project.
